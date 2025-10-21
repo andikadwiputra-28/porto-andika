@@ -1,0 +1,107 @@
+/* 1. Selector, warna, font, background */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #e0eaff 0%, #f0f4ff 100%);
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Box model pada elemen utama */
+.container {
+    width: 400px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(45,91,227,0.12);
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+/* 3. Header dan nama */
+h1 {
+    color: #2d5be3;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+/* 4. Foto profil */
+.profile-img {
+    display: block;
+    margin: 0 auto 18px auto;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #2d5be3;
+    box-shadow: 0 2px 8px rgba(45,91,227,0.10);
+}
+
+/* 5. Tabel data diri */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 18px 0;
+    background: #f8fbff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+th, td {
+    padding: 10px 14px;
+    text-align: left;
+    border-bottom: 1px solid #e0eaff;
+}
+th {
+    background: #2d5be3;
+    color: #fff;
+    font-weight: 500;
+}
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* 6. Skill list */
+ul {
+    padding-left: 18px;
+}
+ul li {
+    background: #eaf0ff;
+    margin-bottom: 8px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(45,91,227,0.07);
+    color: #2d5be3;
+    font-weight: 500;
+}
+
+/* 7. Link Instagram */
+a[target="_blank"] {
+    display: block;
+    text-align: left;
+    background: #2d5be3;
+    color: #fff;
+    padding: 10px 0;
+    margin: 18px 0;
+    border-radius: 22px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+a[target="_blank"]:hover {
+    background: #1a3c8b;
+}
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 60px;
+    height: 50px;
+    border-radius: 16px;
+    color :#1a3c8b;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    transition: all o.3s ease;
+}
